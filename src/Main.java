@@ -4,7 +4,8 @@ public class Main
     {
         Book b = new Book("Stew", "Java Programming", "9782329392");
 
-        System.out.println(b);
+        UserInterface ui = new UserInterface();
+        ui.mainMenu();
 
     }
 }
